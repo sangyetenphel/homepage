@@ -1,0 +1,58 @@
+.home {
+  font-family: Roboto;
+  font-size: 50px;
+  color: #b1b105;
+}
+
+.home {
+  background-color: black;
+  text-align: center;
+}
+.home p {
+  padding-top: 60%;
+}
+
+table {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+table th {
+  border: 2px solid black;
+}
+table td {
+  border: 2px solid black;
+}
+
+.contact {
+  background-color: #ce4444;
+}
+.contact ul {
+  color: #0854f8;
+}
+.contact ol {
+  color: yellow;
+}
+
+#dead {
+  text-align: center;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#soul {
+  color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    padding: 0;
+    font-size: 20px;
+    margin: 0;
+  }
+  .home img {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

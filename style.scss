@@ -1,0 +1,64 @@
+
+%ironman-font{
+    font-family: Roboto;
+    font-size: 50px;
+    color: rgb(177, 177, 5);
+}
+
+.home{
+    @extend %ironman-font;
+    background-color: black;
+    text-align: center;
+
+    p{
+        padding-top: 60%;
+    }
+
+}
+
+table{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+
+    th{
+        border: 2px solid black;
+    }
+
+    td{
+        border: 2px solid black;
+    }
+}
+
+.contact {
+    background-color: rgb(206, 68, 68);
+
+    ul{
+        color: rgb(8, 84, 248);
+    }
+
+    ol{
+        color: yellow;
+    }
+}
+
+#dead{
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+#soul{
+    color: rgb(255, 0, 0);
+}
+
+@media only screen and (max-width: 600px) {
+    .home {
+        padding: 0;
+        font-size: 20px;
+        margin: 0;
+
+        img{
+            width: 50%;
+        }
+    }
+  }
